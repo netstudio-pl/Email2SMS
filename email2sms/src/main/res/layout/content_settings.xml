@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.waw.netstudio.email2sms.activities.SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+    <TextView
+        android:id="@+id/tvSettings1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/tvSettings1"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnZapiszUstawienia"
+        android:layout_alignStart="@+id/btnZapiszUstawienia" />
+
+    <EditText
+        android:id="@+id/etSerwer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSettings1"
+        android:layout_alignStart="@+id/tvSettings1"
+        android:layout_below="@+id/tvSettings1"
+        android:ems="10"
+        android:inputType="textUri"
+        android:text="@string/etSerwer" />
+
+    <TextView
+        android:id="@+id/tvSettings2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSettings2"
+        android:layout_below="@+id/etSerwer"
+        android:layout_alignLeft="@+id/etSerwer"
+        android:layout_alignStart="@+id/etSerwer"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/etKonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSettings2"
+        android:layout_alignStart="@+id/tvSettings2"
+        android:layout_below="@+id/tvSettings2"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/etKonto" />
+
+    <TextView
+        android:id="@+id/tvSettings3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etKonto"
+        android:layout_alignStart="@+id/etKonto"
+        android:layout_below="@+id/etKonto"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvSettings3" />
+
+    <EditText
+        android:id="@+id/etHaslo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/etHaslo"
+        android:layout_below="@+id/tvSettings3"
+        android:layout_alignLeft="@+id/tvSettings3"
+        android:layout_alignStart="@+id/tvSettings3" />
+
+    <TextView
+        android:id="@+id/tvSettings4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etHaslo"
+        android:layout_alignStart="@+id/etHaslo"
+        android:layout_below="@+id/etHaslo"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvSettings4" />
+
+    <EditText
+        android:id="@+id/etCzestotliwosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSettings4"
+        android:layout_alignStart="@+id/tvSettings4"
+        android:layout_below="@+id/tvSettings4"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/etCzestotliwosc" />
+
+    <TextView
+        android:id="@+id/tvSettings5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etCzestotliwosc"
+        android:layout_alignStart="@+id/etCzestotliwosc"
+        android:layout_below="@+id/etCzestotliwosc"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvSettings5" />
+
+    <EditText
+        android:id="@+id/etZnacznikStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSettings5"
+        android:layout_alignStart="@+id/tvSettings5"
+        android:layout_below="@+id/tvSettings5"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/etZnacznikStart" />
+
+    <TextView
+        android:id="@+id/tvSettings6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etZnacznikStart"
+        android:layout_alignStart="@+id/etZnacznikStart"
+        android:layout_below="@+id/etZnacznikStart"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvSettings6" />
+
+    <EditText
+        android:id="@+id/etZnacznikKoniec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSettings6"
+        android:layout_alignStart="@+id/tvSettings6"
+        android:layout_below="@+id/tvSettings6"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/etZnacznikKoniec" />
+
+    <Button
+        android:id="@+id/btnZapiszUstawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:onClick="btnZapiszUstawieniaClick"
+        android:text="@string/btnZapiszUstawienia" />
+</RelativeLayout>

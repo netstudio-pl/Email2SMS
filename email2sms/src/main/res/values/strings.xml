@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Email2SMS</string>
+    <string name="serive_name">Email2SMS</string>
+    <string name="tvInfo1" />
+    <string name="btnWlaczUsluge">Włącz usługę</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="tvSettings1">Nazwa serwera pocztowego</string>
+    <string name="etSerwer" />
+    <string name="tvSettings2">Nazwa konta pocztowego</string>
+    <string name="etKonto" />
+    <string name="tvSettings3">Hasło konta pocztowego</string>
+    <string name="etHaslo" />
+    <string name="tvSettings4">Częstotliwość wywoływania usługi</string>
+    <string name="etCzestotliwosc" />
+    <string name="tvSettings5">Znacznik początkowy wiadomości</string>
+    <string name="etZnacznikStart" />
+    <string name="tvSettings6">Znacznik końcowy wiadomości</string>
+    <string name="etZnacznikKoniec" />
+    <string name="btnZapiszUstawienia">Zapisz ustawienia</string>
+    <string name="title_activity_manager">Lista autoryzacyjna</string>
+    <string name="btnDodajPozycje">Dodaj numer</string>
+    <string name="dialog_title">Wprowadź adres nadawcy i numer odbiorcy</string>
+    <string name="btnZapiszListe">Zapisz listę</string>
+</resources>
